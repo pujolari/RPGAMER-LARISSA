@@ -1,18 +1,35 @@
+* { color: white; }
 @font-face {
     font-family: 'Lifecraft';
     src: url(../../fonts/LifeCraft_Font.ttf) format('truetype');
 }
+a{
+    margin-left: 0px;
+}
+.btn { 
+    margin-left: 44%;
+ align-items: center;
+}
+.circulo {
+    width: 10rem!important;
+    height: 10rem;
+    border-radius: 50%; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 10rem;
+  }
+  
 
 .row-header{
     height: 60px;
-    border-bottom: 3px black solid;
+    border-bottom: 3px rgb(255, 255, 255) solid;
 }
 
 .row-main{
     height: calc(100vh - 120px);
     background-image: url("../../images/background/wallpaper-mestre-ajustado.png");
-    background-size: cover;
+    background-size:cover;
     background-position: bottom;
+   
 }
 
 .row-footer{
@@ -22,7 +39,7 @@
     background-size: cover;
 }
 
-.texto-sobre{
+.texto-nome{
 font-family: inherit;
 font-size: 20px;
 color:#fff;
